@@ -79,6 +79,8 @@ The system detects parking space occupancy using sensors and updates the availab
 * GND → GND
 * Trig → ESP32 GPIO pin
 * Echo → ESP32 GPIO pin
+* Circuit Diagram:
+<img src="Parking system.png" width="600">
 Repeat the same connections for all parking slots in both Bike and Car sections.
 * Connect ESP32 to the computer.
 * Upload the ESP32 code using Arduino IDE.
