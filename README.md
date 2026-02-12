@@ -35,7 +35,7 @@ The system detects parking space occupancy using sensors and updates the availab
 ✅ Scalable architecture (can add more slots easily)
 ✅ Energy-efficient operation using ESP32
 
-🏗️ **Hardware Specifications**
+##🏗️ **Hardware Specifications**
 | Component         | Specification     |
 | ----------------- | ----------------- |
 | Ultrasonic Sensor | HC-SR04           |
@@ -86,7 +86,7 @@ Repeat the same connections for all parking slots in both Bike and Car sections.
 * Open `index.html` in the browser.
 * Select vehicle type (Bike / Car).
 * View real-time parking slot status.
-* 
+  
 ## 📊 Firebase Data Structure
 ```
 ultrasonic
