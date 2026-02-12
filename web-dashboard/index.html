@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Parking System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">🚘 SmartPark - Real-Time Parking Dashboard</nav>
+
+  <div id="loader-screen" class="loader-screen">
+    <div class="loader-text">🚘 SmartPark</div>
+    <div class="loader"></div>
+  </div>
+
+  <div class="container">
+    <div id="clock" class="clock"></div>
+
+    <div class="parking-section">
+      <h2>Bike Parking</h2>
+      <div id="bike-available" class="availability-info"></div>
+      <div id="bike-slots" class="slot-grid"></div>
+    </div>
+
+    <div class="parking-section">
+      <h2>Car Parking</h2>
+      <div id="car-available" class="availability-info"></div>
+      <div id="car-slots" class="slot-grid"></div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
