@@ -6,38 +6,11 @@ With rapid urbanization and increasing vehicle density, parking management has b
 The system detects parking space occupancy using sensors and updates the availability status to a cloud database instantly. A web interface displays live parking information, allowing users to check free and occupied slots remotely. Additionally, the platform supports features like slot reservation and online interaction, making the parking process more convenient, time-saving, and environmentally friendly.
 
 🧠 **System Architecture**
-           ┌─────────────────────────────┐
-           │        Hardware Layer       │
-           │                             │
-           │      Ultrasonic Sensors     │
-           │          (HC-SR04)          │
-           └─────────────┬───────────────┘
-                         │ Detect vehicle presence
-                         ▼
-                 ┌─────────────────┐
-                 │      ESP32      │
-                 │  Microcontroller│
-                 └─────────┬───────┘
-                           │ Sends data via Wi-Fi
-                           ▼
-           ┌─────────────────────────────┐
-           │         Cloud Layer         │
-           │                             │
-           │ Firebase Realtime Database  │
-           │  • JSON slot structure      │
-           │  • Real-time sync           │
-           └─────────────┬───────────────┘
-                         │ Data fetched live
-                         ▼
-           ┌─────────────────────────────┐
-           │      Application Layer      │
-           │                             │
-           │  Web App (HTML, CSS, JS)    │
-           │  • Firebase Web SDK         │
-           │  • Live slot display        │
-           │  • Vehicle type selection   │
-           │    (Bike / Car)             │
-           └─────────────────────────────┘
+| Layer                 | Components Used                         | Function                                                |
+| --------------------- | --------------------------------------- | ------------------------------------------------------- |
+| **Hardware Layer**    | Ultrasonic Sensors (HC-SR04), ESP32     | Detects vehicle presence and sends occupancy data       |
+| **Cloud Layer**       | Firebase Realtime Database              | Stores and synchronizes parking data in real time       |
+| **Application Layer** | HTML, CSS, JavaScript, Firebase Web SDK | Displays live slot status and supports user interaction |
 
 ## 🛠️ Technologies Used
 ### 🔌 Hardware
