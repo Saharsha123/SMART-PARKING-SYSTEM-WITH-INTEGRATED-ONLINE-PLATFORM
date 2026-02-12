@@ -35,7 +35,7 @@ The system detects parking space occupancy using sensors and updates the availab
 ✅ Scalable architecture (can add more slots easily)
 ✅ Energy-efficient operation using ESP32
 
-##🏗️ **Hardware Specifications**
+## 🏗️ Hardware Specifications
 | Component         | Specification     |
 | ----------------- | ----------------- |
 | Ultrasonic Sensor | HC-SR04           |
@@ -52,9 +52,7 @@ The system detects parking space occupancy using sensors and updates the availab
 * GND → GND
 * Trig → ESP32 GPIO pin
 * Echo → ESP32 GPIO pin
-* Circuit Diagram:
-<img src="Parking system.png" width="600">
-Repeat the same connections for all parking slots in both Bike and Car sections.
+Repeat the same connections for all parking slots in both Bike and Car sections. For refernce check the circuit diagram that is attached.
 * Connect ESP32 to the computer.
 * Upload the ESP32 code using Arduino IDE.
 
@@ -117,9 +115,7 @@ All sensor data sent to Firebase successfully
 ```
 
 ## 👨‍💻 Authors
-Mayur Kiran Kumar | Rutikaa M | Saharsha | Samartha K B
-**RV College of Engineering**
-Department of Computer Science
+Mayur Kiran Kumar | Rutikaa M | Saharsha | Samartha K B: **RV College of Engineering**, Department of Computer Science
 
 ## 📜 License
 This project is developed for academic and educational purposes.
