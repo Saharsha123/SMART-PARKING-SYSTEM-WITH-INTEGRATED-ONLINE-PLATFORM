@@ -2,7 +2,7 @@
 An IoT-based Smart Parking System built using ESP32, Ultrasonic Sensors, Firebase Realtime Database, and a Web Application to provide real-time parking space monitoring, reservation, and online interaction.
 
 📌 **Project Overview**
-With rapid urbanization and increasing vehicle density, parking management has become a significant challenge in modern cities, often leading to traffic congestion, fuel wastage, driver frustration, and increased carbon emissions. This project proposes an IoT-based Smart Parking Solution that improves the efficiency of parking systems through real-time monitoring and digital interaction.
+* With rapid urbanization and increasing vehicle density, parking management has become a significant challenge in modern cities, often leading to traffic congestion, fuel wastage, driver frustration, and increased carbon emissions. This project proposes an IoT-based Smart Parking Solution that improves the efficiency of parking systems through real-time monitoring and digital interaction.
 The system detects parking space occupancy using sensors and updates the availability status to a cloud database instantly. A web interface displays live parking information, allowing users to check free and occupied slots remotely. Additionally, the platform supports features like slot reservation and online interaction, making the parking process more convenient, time-saving, and environmentally friendly.
 
 🧠 **System Architecture**
@@ -27,13 +27,13 @@ The system detects parking space occupancy using sensors and updates the availab
 * **Firebase Web SDK (v11)** – Connects the web app to Firebase for live data updates.
 
 ⚙️ **Features**
-✅ Real-time parking slot detection
-✅ Separate monitoring for bike and car parking spaces
-✅ Firebase cloud integration for instant data sync
-✅ Live parking availability updates on web interface
-✅ Low-latency data transmission via Wi-Fi
-✅ Scalable architecture (can add more slots easily)
-✅ Energy-efficient operation using ESP32
+* ✅ Real-time parking slot detection
+* ✅ Separate monitoring for bike and car parking spaces
+* ✅ Firebase cloud integration for instant data sync
+* ✅ Live parking availability updates on web interface
+* ✅ Low-latency data transmission via Wi-Fi
+* ✅ Scalable architecture (can add more slots easily)
+* ✅ Energy-efficient operation using ESP32
 
 ## 🏗️ Hardware Specifications
 | Component         | Specification     |
@@ -55,6 +55,7 @@ The system detects parking space occupancy using sensors and updates the availab
 Repeat the same connections for all parking slots in both Bike and Car sections. For refernce check the circuit diagram that is attached.
 * Connect ESP32 to the computer.
 * Upload the ESP32 code using Arduino IDE.
+![CIRCUIT DIAGRAM](Ciricuit diagram.png)
 
 ## 🔥 Firebase Setup
 1. Go to: [https://firebase.google.com](https://firebase.google.com)
