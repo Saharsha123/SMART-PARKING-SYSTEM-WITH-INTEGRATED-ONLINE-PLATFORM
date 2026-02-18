@@ -55,7 +55,7 @@ The system detects parking space occupancy using sensors and updates the availab
 Repeat the same connections for all parking slots in both Bike and Car sections. For refernce check the circuit diagram that is attached.
 * Connect ESP32 to the computer.
 * Upload the ESP32 code using Arduino IDE.
-! [CIRCUIT DIAGRAM](Ciricuit diagram.png)
+* ! [CIRCUIT DIAGRAM](Ciricuit diagram.png)
 
 ## 🔥 Firebase Setup
 1. Go to: [https://firebase.google.com](https://firebase.google.com)
